@@ -1,0 +1,44 @@
+#heading {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(234,154,178);
+    background: linear-gradient(45deg, rgba(234,154,178,1) 0%, rgba(239,207,227,1) 22%, rgba(179,222,226,1) 87%);
+    font-family:
+}
+
+#heading h1, h3{
+    background-color: transparent;
+    width: 100%;
+}
+
+#filter {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    place-content: center;
+    margin-bottom: 30px;
+}
+
+.filterButton {
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #EFCFE3;
+    color: #000;
+}
+
+.filterButton:hover {
+    background-color: #E27396;
+    color: whitesmoke;
+}

@@ -1,0 +1,31 @@
+#del {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#done {
+    border-radius: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-trash{
+    cursor: pointer;
+}
+
+#checkbox{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+    accent-color: #E27396;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

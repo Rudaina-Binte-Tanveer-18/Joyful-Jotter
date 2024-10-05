@@ -1,0 +1,41 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.space-grotesk-<uniquifier {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+#note {
+    padding: 20px;
+    height: 40vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #E27396;
+}
+
+#note>*, #note>div>* {
+    background-color: transparent;
+}
+
+#note>textarea {
+    border: none;
+    flex: 1;
+    font-size: 18px;
+    font-family: monospace;
+    resize: none;
+}
+
+#note>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#note>div>i{
+    transition: 300ms;
+
+}

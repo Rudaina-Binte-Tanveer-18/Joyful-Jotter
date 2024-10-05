@@ -1,0 +1,114 @@
+#calendar {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.react-calendar {
+    background-color: #EFCFE3;
+    border: 1px solid #EFCFE3;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive font sizes and padding */
+.react-calendar__tile {
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-size: 1rem; /* Default font size for medium screens */
+    padding: 10px;
+}
+
+/* Hover and active tile styles */
+.react-calendar__tile:enabled:hover {
+    background-color: #EA9AB2;
+}
+
+.react-calendar__tile:enabled:focus {
+    background-color: #B3DEE2;
+}
+
+.react-calendar__tile--active {
+    background-color: #B3DEE2;
+    font-weight: bold;
+}
+
+/* Custom styles for weekends */
+.react-calendar__month-view__days__day--weekend>abbr {
+    background-color: transparent;
+    color: #d9534f;
+}
+
+/* Weekdays customization */
+.react-calendar__month-view__weekdays {
+    font-weight: bold;
+    color: black;
+    background-color: #f0f8ff;
+}
+
+.react-calendar__tile--now {
+    background: #E27396;
+    color: white;
+    font-weight: bolder;
+}
+
+.react-calendar__navigation button {
+    color: black;
+    font-weight: bold;
+    background-color: #f0f8ff;
+    width: fit-content;
+}
+
+.react-calendar__navigation button:hover {
+    background-color: #e0f7fa;
+}
+
+
+
+@media (min-width: 1024px) {
+    .react-calendar {
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    .react-calendar__tile {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .react-calendar {
+        max-width: 500px;
+        padding: 15px;
+    }
+
+    .react-calendar__tile {
+        font-size: 1.1rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .react-calendar {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .react-calendar__tile {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .react-calendar__navigation button {
+        font-size: 0.85rem;
+        padding: 5px;
+    }
+}

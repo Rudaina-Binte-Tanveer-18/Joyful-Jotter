@@ -1,0 +1,47 @@
+#addTaskForm {
+    width: 100%;
+}
+
+#table1,
+#table2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+#timeTable,
+#dateTable {
+    width: 50%;
+}
+
+#clockCal {
+    width: 50%;
+}
+
+#categoryTable {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+    #table1 {
+        flex-direction: column;
+    }
+
+    #alltable {
+        width: 100%;
+    }
+
+    #clockCal {
+        width: 100%;
+    }
+
+    #table2 {
+        flex-direction: column;
+    }
+
+    #timeTable,
+    #dateTable {
+        width: 100%;
+    }
+}

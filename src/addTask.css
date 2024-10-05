@@ -1,0 +1,55 @@
+/* #add {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #B3DEE2;
+    font-size: small;
+}
+
+#add:disabled {
+    background-color: #EFCFE3;
+    color: #000;
+}
+
+#add:hover {
+    background-color: #E27396;
+    color: whitesmoke;
+    cursor: pointer;
+} */
+
+.task {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: black solid 1px;
+    width: 20%;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 70%;
+    background-color: transparent;
+    gap: 5px;
+}
+
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .task {
+        width: 70%;
+    }
+
+    #add {
+        width: 70%; /* Button full width on smaller screens */
+    }
+}

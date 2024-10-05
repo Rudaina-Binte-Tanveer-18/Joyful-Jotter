@@ -1,0 +1,19 @@
+
+#noteContainer{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+#main{
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  background-color: #EAF2D7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+}
